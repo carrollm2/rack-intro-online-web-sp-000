@@ -1,4 +1,4 @@
-
+require 'rack'
 # Something that responds to call, that's what Rack demands
 class MyServer
   def call(env)
